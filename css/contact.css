@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+/* font families defined */
+
+@font-face {font-family: "Coder's Crux";
+    src: url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.eot");
+    src: url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.svg#Coder's Crux") format("svg");
+}
+
+/* Body */
+body {
+	background-color: rgba(20,20,20,1);
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+ 
+ p {
+	padding: 10px;
+ }
+
+/* Container */
+.container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90%;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;  
+}
+
+.pinkline {
+	background: #fb61e8;
+	height:15px;
+	border:none;
+	padding: none;
+}
+
+	
+.center_p {
+	text-align: center;
+	vertical-align: middle;  
+}
+	
+/* Navigation */
+
+#header-box {
+	background-color: #000;
+}
+
+#splashbox {
+	color: white;
+	margin: 0 auto;
+	font-size: 25px;
+	width: 27%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;  
+}
+
+#splashbox:hover {
+	background-image: url(../images/glitch.gif);
+}
+
+#hello {
+	padding-top: 10px;
+	color: black;
+	font-weight: 900;
+	font-family: Hiragino Sans;
+	margin-bottom: -40px;
+}
+
+
+#logo {
+	width: 40%;
+	height: 20%;
+	padding: 20px;
+	border: 10px solid #ecdefd;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.float_center {
+  float: right;
+  position: relative;
+  left: -50%; 
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.clear {
+  clear:both;
+}
+
+#cc {
+  width: 90%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px 0;
+}
+#black-box {
+	background-color:black;
+	width: 90%;
+	height: 30px;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0 6px;
+  background-color: black;
+  letter-spacing: 1.5px;
+  
+}
+
+
+ul a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  padding: 0px 4px;
+}
+
+#content{
+	overflow:hidden
+}/* hide horizontal scrollbar*/
+
+ul li a {
+	font-family: "Coder's Crux";
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+ul li:hover a {
+	color: #fb61e8;
+	text-shadow: 2px 2px #ECDEFC;
+}
+
+.hero_header, #contact_us {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-size: 150%;
+}
+
+#name {
+	width: 300px;
+	margin: 10px;
+	border: 8px solid #52F1F3;
+	font-family: Helvetica Neue, sans serif;
+}
+
+#email {
+	width: 300px;
+	margin: 10px;
+	border: 8px solid #52F1F3;
+	font-family: Helvetica Neue, sans serif;
+}
+
+#message {
+	width: 300px;
+	margin: 10px;
+	height: 100px;
+	border: 8px solid #52F1F3;
+	font-family: Helvetica Neue, sans serif;
+	resize: none;
+	
+} 
+
+#name:focus, #message:focus, #email:focus {
+	border: 8px solid #FB61E8;
+}
+
+::-webkit-input-placeholder {
+   color: #010542;
+   font-family: "Coder's Crux", Helvetica Neue, sans serif;
+	font-size: 15px;
+	padding-top: 2px;
+}
+
+#email_box {
+	font-family: "Coder's Crux", Helvetica Neue, sans serif;
+	align-content: left;
+}
+
+#name_box {
+	align-content: left;
+	font-family: "Coder's Crux", Helvetica Neue, sans serif;
+}
+
+/* More info */
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #000;
+	color: #000;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	color:#52F1F3;
+	cursor: pointer;
+	border: 3px solid #00FDFF;
+	border-radius: 100px;
+	
+}
+
+#button_link {
+	text-decoration: none;
+	color:inherit;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #020542;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	padding-top: 40px;
+	padding-bottom: 40PX;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+}
+#id {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+.breaker {
+	height: 10px;
+	background-color: #fb61e8;
+}
+
+
+
+
+

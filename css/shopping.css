@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+/* font families defined */
+
+@font-face {font-family: "Coder's Crux";
+    src: url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.eot");
+    src: url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/72ead4a017593b5ca3413f1e665912ae.svg#Coder's Crux") format("svg");
+}
+
+/* Body */
+body {
+	background-color: rgba(20,20,20,1);
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 200;
+	text-align: center;
+}
+ 
+ p {
+	padding: 10px;
+ }
+ 
+h1 {
+	font-weight: 900;
+	font-size: 50px;
+	font-family:Arial Black;
+}
+/* Container */
+.container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90%;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;  
+}
+
+.pinkline {
+	background: #fb61e8;
+	height:15px;
+	border:none;
+	padding: none;
+}
+
+	
+.center_p {
+	text-align: center;
+	vertical-align: middle;  
+}
+	
+/* Navigation */
+
+#header-box {
+	background-color: #000;
+}
+
+#splashbox {
+	color: white;
+	margin: 0 auto;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;  
+}
+
+#teal_dank {
+	text-decoration:none;
+	color:#000000;
+}
+
+#teal_dank::before {
+  content:" ";
+  position: absolute;
+  border-bottom:1px solid #52F1F3; 
+  width:255px;
+  height:1.1em;
+}
+
+#teal_jazz {
+	text-decoration:none;
+	color:#000000;
+}
+
+#teal_jazz::before {
+  content:" ";
+  position: absolute;
+  border-bottom:1px solid #52F1F3; 
+  width:230px;
+  height:1.1em;
+}
+
+
+#teal_az {
+	text-decoration:none;
+	color:#000000;
+}
+
+#teal_az::before {
+  content:" ";
+  position: absolute;
+  border-bottom:1px solid #52F1F3; 
+  width:334px;
+  height:1.1em;
+}
+
+#logo {
+	width: 50%;
+	height: 40%;
+	background-color: white;
+	padding: 20px;
+}
+
+.float_center {
+  float: right;
+  position: relative;
+  left: -50%; 
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.clear {
+  clear:both;
+}
+
+#pinkbox {
+	background-color: #ECDEFC;
+	height: 500px;
+	width: 150px;
+	float: right;
+	margin-top: -500px;
+	margin-right: 45px;
+}
+
+#cc {
+  width: 90%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px 0;
+}
+
+#black-box {
+	background-color:black;
+	width: 90%;
+	height: 30px;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0 6px;
+  background-color: black;
+  letter-spacing: 1.5px;
+  
+}
+
+
+ul a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  padding: 0px 4px;
+}
+
+#content{
+	overflow:hidden
+}/* hide horizontal scrollbar*/
+
+ul li a {
+	font-family: "Coder's Crux", Helvetica Neue, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+ul li:hover a {
+	color: #fb61e8;
+	text-shadow: 2px 2px #ECDEFC;
+}
+
+.hero_header, #contact_us {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-size: 150%;
+}
+
+
+/*Gallery */
+
+.gallery {
+	clear: both;
+	width: 100%;
+	background-color: #FFFFFF;
+	min-width: 200px;
+	border: none;
+}
+.thumbnail img{
+	margin-top: 35px;
+	height: 15%;
+	display: flex; 
+	margin:0 auto; 
+	padding: 10px;
+}
+
+.thumbnail {
+	padding:5px;
+	align-content: center;
+}
+td {
+	padding-right: 20px;
+}
+
+/* More info */
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column p {
+	color: #020542;
+	background-color: #FFFFFF;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 900;
+	
+}
+
+#contact_button {
+	padding-top: 20px;
+	margin-top: 40px;
+	letter-spacing: 2px;
+	border: 3px solid #000;
+	color: #000;
+	transition: all 0.3s linear;
+}
+#contact_button:hover {
+	color:#52F1F3;
+	cursor: pointer;
+	border: 3px solid #00FDFF;
+	border-radius: 100px;
+	
+}
+
+.button-link {
+	text-decoration: none;
+	color:inherit;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #020542;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+#button_pay {
+	background-color:#52F1F3;
+	font-size:40px;
+	padding: 0px;
+	margin: -12px;
+}
+
+.footer_banner {
+	padding-top: 40px;
+	padding-bottom: 40PX;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+}
+#id {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+.breaker {
+	height: 10px;
+	background-color: #fb61e8;
+}
+
+
+.glitch_word_box {
+				height: 100px;
+				line-height: 100px;
+				position: relative;
+				font-size: 30px;
+				
+				-webkit-animation: disappear 1s linear;
+				-webkit-animation-iteration-count: infinite, infinite;
+				-moz-animation: disappear 1s linear;
+				-moz-animation-iteration-count: infinite, infinite;
+				-o-animation: disappear 1s linear;
+				-o-animation-iteration-count: infinite, infinite;
+}
+			
+.glitch_word_box .glitch_word0 {
+				position: absolute;
+				width: 100%;
+}
+			
+.glitch_word_box .glitch_word1 {
+				color:#fb61e8;
+				font-weight: bolder;
+				left: -2px;
+				position: absolute;
+				top: -2px;
+				width: 100%;
+				z-index: -1;	
+				
+				-webkit-animation: animate_glitch_1 .2s linear;
+				-webkit-animation-iteration-count: infinite;	
+				-moz-animation: animate_glitch_1 .2s linear;
+				-moz-animation-iteration-count: infinite;	
+				-o-animation: animate_glitch_1 .2s linear;
+				-o-animation-iteration-count: infinite;	
+}
+			
+.glitch_word_box .glitch_word2 {
+				color:#52F1F3;
+				font-weight: bolder;
+				left: 2px;
+				position: absolute;
+				top: 2px;
+				width: 100%;
+				z-index: -1;
+				
+				-webkit-animation: animate_glitch_2 .3s linear;
+				-webkit-animation-iteration-count: infinite;
+  		-moz-animation: animate_glitch_2 .3s linear;
+				-moz-animation-iteration-count: infinite;
+  		-o-animation: animate_glitch_2 .3s linear;
+				-o-animation-iteration-count: infinite;
+}
+			
+@-webkit-keyframes disappear {
+				0% {	opacity: 0;	}
+				2% { opacity: 1; }
+}
+						
+@-webkit-keyframes animate_glitch_1 {
+			  	0% { top: 1px; left: 1px; }
+			 	25% { top: 3px; left: 2px;	 }
+		 		50% { top: -1px; left: -4px;	}
+			 	75% { top: 2px; left: 5px;	}
+				100% {	top: 1px; left: -2px;	}			
+}
+			
+@-webkit-keyframes animate_glitch_2 {
+			  	0% { top: -1px; left: -1px;	}
+ 				25% { top: -3px; left: -2px;	}
+ 				50% { top: 1px; left: 4px; }
+				100% { top: -1px; left: -1px; }			
+}
+
+@-moz-keyframes disappear {
+				0% {	opacity: 0;	}
+				2% { opacity: 1; }
+}
+						
+@-moz-keyframes animate_glitch_1 {
+			  	0% { top: 1px; left: 1px; }
+			 	25% { top: 3px; left: 2px;	 }
+		 		50% { top: -1px; left: -4px;	}
+			 	75% { top: 2px; left: 5px;	}
+				100% {	top: 1px; left: -2px;	}			
+}
+			
+@-moz-keyframes animate_glitch_2 {
+			  	0% { top: -1px; left: -1px;	}
+ 				25% { top: -3px; left: -2px;	}
+ 				50% { top: 1px; left: 4px; }
+				100% { top: -1px; left: -1px; }			
+}
+
+@-o-keyframes disappear {
+				0% {	opacity: 0;	}
+				2% { opacity: 1; }
+}
+						
+@-o-keyframes animate_glitch_1 {
+			  	0% { top: 1px; left: 1px; }
+			 	25% { top: 3px; left: 2px;	 }
+		 		50% { top: -1px; left: -4px;	}
+			 	75% { top: 2px; left: 5px;	}
+				100% {	top: 1px; left: -2px;	}			
+}
+			
+@-o-keyframes animate_glitch_2 {
+			  	0% { top: -1px; left: -1px;	}
+ 				25% { top: -3px; left: -2px;	}
+ 				50% { top: 1px; left: 4px; }
+				100% { top: -1px; left: -1px; }			
+}
